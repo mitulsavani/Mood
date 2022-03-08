@@ -89,6 +89,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     letterSpacing: 1,
     marginBottom: 20,
+    fontFamily: theme.fontFamilyBold,
   },
   moodText: {
     fontSize: 24,
@@ -115,6 +116,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 10,
     textAlign: 'center',
+    fontFamily: theme.fontFamilyBold,
   },
   button: {
     backgroundColor: theme.colorPurple,
@@ -128,5 +130,6 @@ const styles = StyleSheet.create({
     color: theme.colorWhite,
     textAlign: 'center',
     fontWeight: 'bold',
+    fontFamily: theme.fontFamilyBold,
   },
 });
