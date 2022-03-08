@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
-import { useAppContext } from "../App.provider";
+import { useAppContext } from '../App.provider';
 import { MoodItemRow } from '../components/MoodItemRow';
 
 export const History: React.FC = () => {
@@ -8,7 +8,7 @@ export const History: React.FC = () => {
 
   return (
     <ScrollView>
-      {appContext.moodList.map((item) => (
+      {appContext.moodList.map(item => (
         <MoodItemRow item={item} key={item.timestamp} />
       ))}
     </ScrollView>

@@ -1,8 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text, ImageBackground } from 'react-native';
+import { StyleSheet, ImageBackground } from 'react-native';
 import { MoodPicker } from '../components/MoodPicker';
-import { MoodItemRow } from '../components/MoodItemRow';
-import { MoodOptionType, MoodOptionWithTimestamp } from '../types.ts';
 import { useAppContext } from '../App.provider';
 
 const imageUrl =

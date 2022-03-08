@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Pressable, Button, Image } from 'react-native';
+import { View, Text, StyleSheet, Pressable, Image } from 'react-native';
 import { MoodOptionType } from '../types.ts';
 import { theme } from '../theme.ts';
 
