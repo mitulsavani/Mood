@@ -48,7 +48,7 @@ yarn run android (Android version)
 
 |                       iOS                                  |                              Android                           |
 | :-----------------------------------------------------: | :-----------------------------------------------------: |
-| <img width="250" src="./folderassets/screenshots/splash_ios.png"> | <img width="250" src="./folderassets/screenshots/splash_android.png"> |
-| <img width="250" src="./folderassets/screenshots/home_ios.png"> | <img width="250" src="./folderassets/screenshots/home_android.png"> |
-| <img width="250" src="./folderassets/screenshots/history_ios.png"> | <img width="250" src="./folderassets/screenshots/history_android.png"> |
-| <img width="250" src="./folderassets/screenshots/analytics_ios.png"> | <img width="250" src="./folderassets/screenshots/analytics_android.png"> |
+| <img width="340" src="./folderassets/screenshots/splash_ios.png"> | <img width="200" src="./folderassets/screenshots/splash_android.png"> |
+| <img width="340" src="./folderassets/screenshots/home_ios.png"> | <img width="250" src="./folderassets/screenshots/home_android.png"> |
+| <img width="340" src="./folderassets/screenshots/history_ios.png"> | <img width="250" src="./folderassets/screenshots/history_android.png"> |
+| <img width="340" src="./folderassets/screenshots/analytics_ios.png"> | <img width="250" src="./folderassets/screenshots/analytics_android.png"> |
