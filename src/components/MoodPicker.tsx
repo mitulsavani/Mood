@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Pressable, Image } from 'react-native';
-import { MoodOptionType } from '../types.ts';
-import { theme } from '../theme.ts';
+import { MoodOptionType } from '../types';
+import { theme } from '../theme';
 import Reanimated, {
   useAnimatedStyle,
   withTiming,
@@ -11,10 +11,10 @@ const imageSrc = require('../assets/butterflies.png');
 const ReanimatedPressable = Reanimated.createAnimatedComponent(Pressable);
 
 const moodOptions: MoodOptionType[] = [
-  { emoji: '🧑‍💻', description: 'Prepping' },
-  { emoji: '🤔', description: 'Missing Angel' },
+  { emoji: '🧑‍💻', description: 'Studious' },
+  { emoji: '🤔', description: 'Thinking' },
   { emoji: '😊', description: 'Happy' },
-  { emoji: '🥳', description: 'Offer' },
+  { emoji: '🥳', description: 'Excited' },
   { emoji: '😤', description: 'Exhausted' },
 ];
 
@@ -99,12 +99,12 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   heading: {
-    fontWeight: 'bold',
     fontSize: 20,
     textAlign: 'center',
     letterSpacing: 1,
     marginBottom: 20,
     fontFamily: theme.fontFamilyBold,
+    color: theme.colorWhite,
   },
   moodText: {
     fontSize: 24,
@@ -127,8 +127,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   descriptionText: {
-    color: '#454C73',
-    fontWeight: 'bold',
+    color: theme.colorPurple,
     fontSize: 10,
     textAlign: 'center',
     fontFamily: theme.fontFamilyBold,
@@ -144,7 +143,6 @@ const styles = StyleSheet.create({
   buttonText: {
     color: theme.colorWhite,
     textAlign: 'center',
-    fontWeight: 'bold',
     fontFamily: theme.fontFamilyBold,
   },
 });

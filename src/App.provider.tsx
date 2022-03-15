@@ -1,5 +1,5 @@
 import React from 'react';
-import { MoodOptionType, MoodOptionWithTimestamp } from './types.ts';
+import { MoodOptionType, MoodOptionWithTimestamp } from './types';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const storageKey = 'my-app-data';
@@ -59,7 +59,7 @@ export const AppProvider: React.FC = ({ children }) => {
         const newValue = current.filter(
           item => item.timestamp !== mood.timestamp,
         );
-        setAppData({ mood: newValue });
+        setAppData({ moods: newValue });
         return newValue;
       });
     },

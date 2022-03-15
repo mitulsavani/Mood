@@ -8,8 +8,8 @@ import {
 } from 'react-native';
 import { useAppContext } from '../App.provider';
 import format from 'date-fns/format';
-import { MoodOptionWithTimestamp } from '../types.ts';
-import { theme } from '../theme.ts';
+import { MoodOptionWithTimestamp } from '../types';
+import { theme } from '../theme';
 import { PanGestureHandler, PanGestureHandlerGestureEvent } from 'react-native-gesture-handler';
 import Reanimated, {
   useAnimatedStyle,
@@ -109,13 +109,12 @@ const styles = StyleSheet.create({
   },
   moodDate: {
     textAlign: 'center',
-    color: theme.colorLavendar,
+    color: theme.colorLavender,
     fontFamily: theme.fontFamilyRegular,
   },
   moodDescription: {
     fontSize: 18,
     color: theme.colorPurple,
-    fontWeight: 'bold',
     fontFamily: theme.fontFamilyBold,
   },
   iconAndDescription: {

@@ -5,8 +5,8 @@ import { BottomTabsNavigator } from './screens/BottomTabs.navigator';
 import { AppProvider } from './App.provider';
 
 if (Platform.OS === 'android') {
-  if (UIManager.setLayoutAnimationEnabledExperiment) {
-    UIManager.setLayoutAnimationEnabledExperiment(true);
+  if (UIManager.setLayoutAnimationEnabledExperimental) {
+    UIManager.setLayoutAnimationEnabledExperimental(true);
   }
 }
 

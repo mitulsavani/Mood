@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { useAppContext } from '../App.provider.tsx';
+import { useAppContext } from '../App.provider';
 import { VictoryPie } from 'victory-native';
 import groupBy from 'lodash/groupBy';
-import { theme } from '../theme.ts';
+import { theme } from '../theme';
 
 export const Analytics: React.FC = () => {
   const appContext = useAppContext();
@@ -23,7 +23,7 @@ export const Analytics: React.FC = () => {
         innerRadius={50}
         colorScale={[
           theme.colorPurple,
-          theme.colorLavendar,
+          theme.colorLavender,
           theme.colorBlue,
           theme.colorGrey,
           theme.colorWhite,

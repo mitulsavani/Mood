@@ -4,7 +4,7 @@ import { Home } from './Home.screen';
 import { History } from './History.screen';
 import { Analytics } from './Analytics.screen';
 import { HomeIcon, HistoryIcon, AnalyticsIcon } from '../components/Icons';
-import { theme } from '../theme.ts';
+import { theme } from '../theme';
 
 const BottomTabs = createBottomTabNavigator();
 
