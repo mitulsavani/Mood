@@ -16,7 +16,7 @@ A simple app that helps you to track and store metrics of your mood
 ## Getting Started - Run Locally
 
 ```
-git clone git@github.com:mobile-space/spiral.git
+git clone https://github.com/mitulsavani/Mood.git
 
 yarn install
 
@@ -42,13 +42,16 @@ yarn run android (Android version)
 - Bespoke animations using Reanimated
 - Adding app icons
 - Adding a splash screen
-- Data visualization using victory chart
+- Data visualization using victory native
 
 ## Screens
 
 |                       iOS                                  |                              Android                           |
 | :-----------------------------------------------------: | :-----------------------------------------------------: |
-| <img width="340" src="./folderassets/screenshots/splash_ios.png"> | <img width="200" src="./folderassets/screenshots/splash_android.png"> |
+| <img width="340" src="./folderassets/screenshots/splash_ios.png"> | <img width="250" src="./folderassets/screenshots/splash_android.png"> |
 | <img width="340" src="./folderassets/screenshots/home_ios.png"> | <img width="250" src="./folderassets/screenshots/home_android.png"> |
 | <img width="340" src="./folderassets/screenshots/history_ios.png"> | <img width="250" src="./folderassets/screenshots/history_android.png"> |
 | <img width="340" src="./folderassets/screenshots/analytics_ios.png"> | <img width="250" src="./folderassets/screenshots/analytics_android.png"> |
+
+
+> Thank you from Mitul, updates on 03/15/22
