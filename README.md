@@ -54,4 +54,4 @@ yarn run android (Android version)
 | <img width="340" src="./folderassets/screenshots/analytics_ios.png"> | <img width="250" src="./folderassets/screenshots/analytics_android.png"> |
 
 
-> Thank you from Mitul, updates on 03/15/22
+> Thank you from Mitul, updated on 03/15/22.
